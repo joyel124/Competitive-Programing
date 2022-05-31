@@ -7,12 +7,12 @@ int main(){
     int n;
     cin>>n;
     string m;
-    map<string,int> input;//map<identificador(input), contador>
+    map<string,int> input;//map<identificador(input), cont>
     for (int i = 0; i < n; i++)
     {
         cin>>m;
-        if(input[m]==0){
-            cout<<"OK"<<endl;
+        if(input[m]==0){//si no existe un string igual antes
+            cout<<"OK"<<endl;//se registra
             input[m]++;
         }
         else{//si ya existe ese string
