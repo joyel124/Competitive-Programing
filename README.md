@@ -1,1 +1,1 @@
-# Contests-GPC
+# Solutions to Competitive Programming Problems
